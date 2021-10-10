@@ -1,0 +1,88 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+@font-face{
+  font-family: Alice;
+  src:url(fonts/Alice-Regular.ttf);
+}
+body{
+  background-color: #ffffff46;
+  font-family: alice;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 100;
+}
+.login{
+  height: 70px;
+  background-color: #af69a4;
+}
+.login h3{
+  text-align: center;
+  color: #191970;
+  font-size: 30px;
+  line-height: 70px;
+}
+.login h3 span{
+  cursor: pointer;
+  font-weight: bold;
+}
+.login h3 span:hover{
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+}
+#form{
+  display: none;
+  text-align: center;
+}
+table{
+  margin: auto;
+  width: 35%;
+}
+table tr td{
+  line-height: 45px;
+}
+input{
+  cursor: pointer;
+}
+a input{
+  width: 35%;
+  margin-left: 0;
+  font-size: 22px;
+  border-radius: 10px;
+  padding: 8px;
+  border: 2px groove #b08787;
+}
+.left{
+  text-align: left;
+}
+.radio{
+  cursor: pointer;
+}
+#msg{
+display: none;
+}
+#form h1{
+  margin-top: 20px;
+}
+#form img{
+  width: 150px;
+  margin-top: 20px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>form</title>
+        <link rel="stylesheet" href="assests/css/style.css">
+    </head>
+    <body>
+        <div class="login">
+            <h3><span onclick="document.getElementById('form').style.display='block'";>Click here to give your feedback</span></h3>
+        </div>
+        <div id="form">
+            <h1>Provide Your Ratings here!</h1>
+            <table id="feedback">
+                <tr>
+                    <td><h2 class="left">5 STAR : EXCELLENT</h2></td>
+                    <td onclick="document.getElementById('msg').style.display='none'" ;>
+                  </tr>
+                <tr>
+                    <td><h2 class="left">4 STAR : GOOD JOB</h2></td>
+                    <td onclick="document.getElementById('msg').style.display='none'";><input onclick="document.getElementById('img').src='images/smile2.png'"; type="radio" value="4" name="radio"></td>
+                </tr>
+                <tr>
+                    <td><h2 class="left">3 STAR : SATISFIED</h2></td>
+                    <td onclick="document.getElementById('msg').style.display='none'";><input onclick="document.getElementById('img').src='images/smile3.png'"; type="radio" value="3" name="radio"></td>
+                </tr>
+                <tr>
+                    <td><h2 class="left">2 STAR : NOT SATISFIED</h2></td>
+                    <td onclick="document.getElementById('msg').style.display='none'";><input onclick="document.getElementById('img').src='images/smile4.png'"; type="radio" value="2" name="radio"></td>
+                </tr>
+                <tr>
+                    <td><h2 class="left">1 STAR : NOT ACCEPTIBLE</h2></td>
+                    <td onclick="document.getElementById('msg').style.display='none'";><input onclick="document.getElementById('img').src='images/smile5.png'"; type="radio" value="1" name="radio"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <a href="javascript:void(0)" onclick="document.getElementById('img').src=''";>
+                            <input onclick="document.getElementById('msg').style.display='block'"; type="submit" value="Submit">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <img src="" id="img">
+            <h1 id="msg">Thanks for giving feedback!</h1>
+        </div>
+    </body>
+</html>
